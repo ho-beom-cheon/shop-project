@@ -109,6 +109,7 @@
 
   export default {
     methods: {
+      //clearCart
       clearCart() {
         this.$store.dispatch('cart/clearCart');
       }
